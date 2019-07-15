@@ -10,4 +10,4 @@ europe["germany"]="berlin"
 del(europe["australia"])
 
 # Print europe
-print(europe)
+print(europe) 
