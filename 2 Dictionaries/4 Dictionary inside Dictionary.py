@@ -17,3 +17,6 @@ europe["italy"] = data
 
 # Print europe
 print(europe)
+
+#printing sub dictionary
+print(europe["france"])
