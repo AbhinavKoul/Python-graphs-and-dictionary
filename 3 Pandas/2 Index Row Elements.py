@@ -11,7 +11,7 @@ print(cars)
 # Definition of row_labels
 row_labels = ['US', 'AUS', 'JAP', 'IN', 'RU', 'MOR', 'EG']
 
-# Specify row labels of cars       ###################################
+# Specify row labels of cars                ###################################
 cars.index = row_labels
 
 # Print cars again
