@@ -7,7 +7,7 @@ for lab,row in cars.iterrows():
     cars.loc[lab,"COUNTRY"] = row["country"].upper()
 
 
-# Use .apply(str.upper)
+# Use .apply(str.upper)            #using apply meathod
 cars["COUNTRY"] = cars["country"].apply(str.upper)
 
 # Print cars
